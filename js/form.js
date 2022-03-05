@@ -4,7 +4,6 @@ var botaoAdicionar = document.querySelector("#adicionar-paciente");
 
 
 botaoAdicionar.addEventListener("click", function(event) {
-
   event.preventDefault();
 //extraindo informacoes do paciente no formulário
 var form = document.querySelector("#form-adiciona");
@@ -22,7 +21,6 @@ var tabela = document.querySelector("#tabela-pacientes");
     form.reset();
     var mensagensErro = document.querySelector("#mensagens-erro");
     mensagensErro.innerHTML = "";
-
 })
 
 
